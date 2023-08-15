@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{margin: 0%;
+padding: 0%;
+height: 100%;
+width: 100%;
+}
+.nav{
+    height: 6vh;
+    width: 100%;
+background:rgb(81, 80, 80);
+display: flex;
+align-items: center;
+justify-content:center;
+}
+.nav img{
+    height: 4vh;
+    margin-bottom: 10px;
+    margin-right: 40%;
+}
+.nav ul{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+list-style: none;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(218, 218, 218);
+font-weight:lighter;
+font-size:medium;
+margin-top: 10px;
+}
+.nav ul li:hover{
+    color: aliceblue;
+    border-bottom: solid 1px white;
+}
+.nav ul li{
+    margin-left:40px;
+    cursor: pointer;
+}
+.nav ul li i{font-size: large;
+
+}
+.photo{ 
+height: 50vh;
+position: relative; 
+background:;
+white-space: nowrap;
+overflow-x: auto;
+overflow-y: auto;
+margin: 0%;
+margin-top: 40px;
+}
+.photo::-webkit-scrollbar{display: none;}
+.photo ul{
+    display: flex;
+list-style: none;
+height: 100%;
+    
+}
+.photo ul li{
+    margin: 0px;
+    padding:0px ;
+
+}
+.photo img{
+    height:50vh;
+    width: auto;
+
+}
+.border{
+    height: 4vh;
+    background: rgb(211, 210, 210);
+    text-align: center;
+    color:white;
+
+}
+#three{
+    height: 42vh;
+    margin-top: 70px;
+}
+#p2{
+    background: #000;
+    margin-top: 0%;
+}
+.card{
+    background:red;
+}
